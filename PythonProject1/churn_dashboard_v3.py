@@ -18,7 +18,7 @@ from imblearn.over_sampling import SMOTE
 st.set_page_config(layout="wide", page_title="Customer Churn Dashboard")
 st.markdown("<h1 style='text-align:center; color: darkblue;'>💼 Customer Churn Prediction Dashboard</h1>", unsafe_allow_html=True)
 
-# ---- User Instructions ----
+# ---- Instructions ----
 st.markdown("""
 **How to use this dashboard:**
 1. Upload a CSV file with a 'Churn' column containing 'Yes' or 'No'.
@@ -184,3 +184,4 @@ with tab3:
         high_risk.to_csv(index=False),
         file_name="high_risk_customers.csv"
     )
+
